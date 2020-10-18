@@ -103,11 +103,14 @@
 
     <!-- external -->
     <project path="external/tinycompress" name="android_external_tinycompress" remote="nos" revision="11" />
+    <project path="external/exfat" name="android_external_exfat" remote="nos" revision="11" />
+    <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="11" />
 
     <!-- OTA -->
 
     <!-- packages -->
     <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="nos" revision="11" />
+    <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nos" revision="11" />
     <project path="packages/apps/NitrogenSettings" name="android_packages_apps_NitrogenSettings" remote="nos" revision="11" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="11" />
     <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nos" revision="11" />
@@ -122,6 +125,8 @@
     <!-- system -->
     <project path="system/bt" name="android_system_bt" remote="nos" revision="11" />
     <project path="system/core" name="android_system_core" remote="nos" revision="11" />
+    <project path="system/extras" name="android_system_extras" remote="nos" revision="11" />
+    <project path="system/sepolicy" name="android_system_sepolicy" remote="nos" revision="11" />
     <project path="system/vold" name="android_system_vold" remote="nos" revision="11" />
 
     <!-- services -->
@@ -131,6 +136,14 @@
     <!-- vendor -->
     <project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nos" revision="11" />
     <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="11" />
+    <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="nos" revision="11" />
+    <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="nos" revision="11" />
+    <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="nos" revision="11" />
+    <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="nos" revision="11" />
+    <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="nos" revision="11-pn5xx" />
+    <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="nos" revision="11-pn5xx" />
+    <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="nos" revision="11-sn100x" />
+    <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="nos" revision="11-sn100x" />
     <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nos" revision="11" />
     <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="nos" revision="11"/>
     <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="nos" revision="11"/>
